@@ -10,6 +10,7 @@ execution_date = datetime.now().strftime("%Y-%m-%d")
 def _total_charges (length):
     print("Transaction Details - ")
     install_cost = length * 0.87
+    print("Installation Length : " + str(length) + " feet")
     print("Installation Charge : $ " + str(install_cost))
     misc_cost = 0 #not relevant for Week 2 assignment scope
     addnl_tax = 0 #not relevant for Week 2 assignment scope
