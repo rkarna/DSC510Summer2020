@@ -16,8 +16,7 @@ def _total_charges (length):
     addnl_tax = 0 #not relevant for Week 2 assignment scope
     total_charges = install_cost + misc_cost + addnl_tax
     print("Total Charges : $ " + str(total_charges))
-    print("We look forward to doing business with you again... ")
-    print("Thank You !!")
+
 
 
 print("Greetings ! Have a nice day !!")
@@ -28,3 +27,5 @@ print("Hello, We're pleased to serve " + company + ", today " + execution_date +
 print("Receipt : ")
 print("Date : " + execution_date)
 _total_charges(length=length)
+print("We look forward to doing business with you again... ")
+print("Thank You !!")
